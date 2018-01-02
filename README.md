@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This is to demo that the following does not work and build fails.
 
 ```sass
-@import "~roboto-fontface/css/roboto/sass/roboto-fontface-bold";
+$fa-font-path: "~font-awesome/fonts" !default;
+@import "~font-awesome/scss/font-awesome";
 ```
 
 
